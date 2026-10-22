@@ -89,9 +89,9 @@ Shell是命令解释器，Bash是其的一种主流软件
 
 - 大多数shell都有自己的一套脚本语言，包括变量、控制流和自己的语法
 
-![image-20261022173929151](C:\Users\z'sh'h\AppData\Roaming\Typora\typora-user-images\image-20261022173929151.png)
+![图片3](C:\Users\z'sh'h\Desktop\missing-semester\2027\ismemochi\notes\images\image-20261022173929151.png)
 
-![image-20261022174011615](C:\Users\z'sh'h\AppData\Roaming\Typora\typora-user-images\image-20261022174011615.png)
+![图片4](C:\Users\z'sh'h\Desktop\missing-semester\2027\ismemochi\notes\images\image-20261022174011615.png)
 
 > ps:
 >
@@ -140,7 +140,7 @@ Shell是命令解释器，Bash是其的一种主流软件
 
 - shell脚本解释器
 
-  ![image-20261022183101870](C:\Users\z'sh'h\AppData\Roaming\Typora\typora-user-images\image-20261022183101870.png)
+  ![图片2](C:\Users\z'sh'h\Desktop\missing-semester\2027\ismemochi\notes\images\image-20261022183101870.png)
 
 # Vim
 
@@ -164,7 +164,7 @@ Shell是命令解释器，Bash是其的一种主流软件
 
   3.末行模式：如果想保存和退出？①Esc②：③w(保存)     q(退出)    wq(保存并退出,若一个文件在编辑时没有名字，则可以用:wq文件名称，代表把当前正在编辑的文件保存到指定的名称中，然后退出)    q!(不保存强制退出)，另还可以查找，替换
 
-  ![image-20261022173446245](C:\Users\z'sh'h\AppData\Roaming\Typora\typora-user-images\image-20261022173446245.png)
+  ![图片1](C:\Users\z'sh'h\Desktop\missing-semester\2027\ismemochi\notes\images\image-20261022165417152.png)
 
   4.可视化模式：ctrl+v(可视块)或V(可视行)或v(可视)，然后按上下左右方向键来选中需要复制的区块，按y复制，按p粘贴，退出按Esc
 
