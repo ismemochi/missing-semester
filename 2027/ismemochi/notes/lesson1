@@ -19,7 +19,7 @@
 
 终端
 
-- [ ] 推荐终端工具：terminator：sudo apt-get install terminator
+- [ ] 推荐终端工具：terminator：`sudo apt-get install terminator`
 
 # Bash
 
@@ -168,7 +168,7 @@ Shell是命令解释器，Bash是其的一种主流软件
 
   4.可视化模式：ctrl+v(可视块)或V(可视行)或v(可视)，然后按上下左右方向键来选中需要复制的区块，按y复制，按p粘贴，退出按Esc
 
-- [ ] 安装Vim：sudo apt install vim
+- [ ] 安装Vim：`sudo apt install vim`
 
 # Git与Github
 
@@ -201,10 +201,41 @@ Shell是命令解释器，Bash是其的一种主流软件
 
 ### 5. 分支与团队协作规范
 - **分支 (Branch)**：为开发新功能保留独立的开发线，避免影响主分支（main）的稳定。修改完成后再发起 PR 合并。
+
 - **团队 PR 工作流**：
   1. 在 GitHub 网页上 **Fork** 团队仓库，复制一份到自己账号下。
+  
   2. 本地 **Clone** 自己 Fork 的仓库。
+  
   3. 创建 **Feature 分支** 进行开发（如 `git switch -c feature/hello`）。
+  
   4. 完成修改后进行 **Add/Commit**，并 **Push** 到自己的远程仓库。
+  
   5. 在 GitHub 网页上**发起 PR**，请求将你的分支合并到团队仓库。
+  
   6. 等待 Review 评审，通过后由管理员 Merge 合并。
+  
+     
+
+# 后续修改
+
+①`git add .`
+②`git commit -m "Add Git and GitHub section to notes."`
+
+或者`git commit -m "Update sys_info.sh logic."`
+
+或者`git commit -m "Update notes and add new script."`
+
+③`git push`
+
+> ps:
+>
+>  **Add（新增）**
+>
+> 当你新建了一个原本不存在的东西时，用 Add。
+> (eg:新建了一个 test.cpp 文件、加了一个新功能、加了一个新图片、notes加了新的章节）
+>
+>  **Update（更新/修改）**
+>
+> 当你修改了已经存在的代码或文件时，用 Update。
+> (eg:修改了笔记里的错别字、改了代码里的一行逻辑、改代码里面的提示文字)
