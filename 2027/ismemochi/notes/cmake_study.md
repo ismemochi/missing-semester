@@ -4,9 +4,10 @@
 
 上课没带电脑，只能写纸上了^-^，但是从虚拟内存开始已重新用typora记录！
 
-![image-20261025224305616](C:\Users\z'sh'h\Desktop\missing-semester\2027\ismemochi\notes\images\image-20261025224305616.png)
+![image](images/image-20261025224305616.png)
 
-![image-20261025224317640](C:\Users\z'sh'h\Desktop\missing-semester\2027\ismemochi\notes\images\image-20261025224317640.png)
+![image](images/image-20261025224317640.png)
+
 
 ## 5.虚拟内存/虚拟存储器（Virtual Memory)
 
@@ -52,8 +53,7 @@
   | **虚拟存储空间（物理实体的假想版）----内存条+硬盘的交换空间** | **虚拟地址空间（逻辑概念的假想版）-----见下图**              |
 
 - 虚拟地址空间
-
-<img src="C:\Users\z'sh'h\Desktop\missing-semester\2027\ismemochi\notes\images\image-20261025220346757.png" alt="image-20261025220346757" style="zoom:33%;" />
+![image](images/image-20261025220346757.png)
 
 1. 地下0层（只读的代码和数据）：房子建好时的硬装。放着你的程序本体（.0文件链接后的东西），也包括了 1ibc.so 里的不可修改数据。只能看，不能砸
 2. 地上1层（读/写数据）：你买的家具（全局变量）。随时可以修改
@@ -80,7 +80,7 @@
 
 - 下图是一个运行在Linux的x86-64系统，使用标准的ELF-64可重定位目标文件格式：
 
-  <img src="C:\Users\z'sh'h\Desktop\missing-semester\2027\ismemochi\notes\images\image-20261025222311625.png" alt="image-20261025222311625" style="zoom: 50%;" />
+ ![image](images/image-20261025222311625.png)
 
 （以下是完全粘贴的链接内容，因为已经写的很清晰了）
 
@@ -117,7 +117,7 @@
 
 1. 核心概念：ELF 可执行文件结构
 
-   ![image-20261025230150541](C:\Users\z'sh'h\Desktop\missing-semester\2027\ismemochi\notes\images\image-20261025230150541.png)
+![image](images/image-20261025230150541.png)
 
 如图所示，经过链接后，多个目标文件被合并为一个可执行目标文件。它的内部被划分为不同的节（Section），并在加载时按属性分组：
 
@@ -211,7 +211,7 @@ gcc -o prog21 main2.c ./libvector.so
 
 4.程序的加载与执行
 
-![image-20261025235104551](C:\Users\z'sh'h\Desktop\missing-semester\2027\ismemochi\notes\images\image-20261025235104551.png)
+![image](images/image-20261025235104551.png)
 
 当你敲下 ./prog21 时，背后的魔法是这样发生的：
 
@@ -515,15 +515,14 @@ source devel/setup.bash
 
 这些天问了好多蠢问题，读不懂链接里的长难句，问了deepseek和claudcode,虽然是解决了一个问题又冒出来很多疑惑，但是知道了ELF文件，动态链接，重定位，虚拟内存......终于开始理解一些底层逻辑，知道了骨架和一些规则
 
-![image-20261026003724764](C:\Users\z'sh'h\Desktop\missing-semester\2027\ismemochi\notes\images\image-20261026003724764.png)
+![image](images/image-20261026003724764.png)
 
-![image-20261026002140536](C:\Users\z'sh'h\Desktop\missing-semester\2027\ismemochi\notes\images\image-20261026002140536.png)
+![image](images/image-20261026002140536.png)
 
-![image-20261026002258147](C:\Users\z'sh'h\Desktop\missing-semester\2027\ismemochi\notes\images\image-20261026002258147.png)
-
+![image](images/image-20261026002258147.png)
 2.及时做笔记有助于知识深刻理解，以下是我的草稿：
 
-![image-20261026002705720](C:\Users\z'sh'h\Desktop\missing-semester\2027\ismemochi\notes\images\image-20261026002705720.png)
+![image](images/image-20261026002705720.png)
 
 3. 大模型（ai)其实是个“没有手脚的天才”
    比如这次学习的英文文章里，发现AI 本身是不碰你的文件的，AI 也不会自己点鼠标。AI 就像一个坐在云端的超级大脑，它懂全世界所有的语法，但它没有手脚。
